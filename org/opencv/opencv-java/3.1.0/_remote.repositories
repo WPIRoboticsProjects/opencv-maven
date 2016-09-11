@@ -1,0 +1,4 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Fri Sep 09 14:45:01 EDT 2016
+opencv-java-3.1.0.jar>=
+opencv-java-3.1.0.pom>=
