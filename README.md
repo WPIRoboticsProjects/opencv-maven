@@ -50,7 +50,7 @@ Currently, only OpenCV 3.1.0 is available. Additionally, native packages have th
 
 | Artifact | Version format |
 |---|---|
-| opencv-java | ${opecv-version} | 
+| opencv-java | ${opencv-version} | 
 | opencv-jni | ${platform}-${opencv-version} |
 | opencv-headers | ${opencv-version} |
 | opencv-natives | ${platform}-${opencv-version} |
