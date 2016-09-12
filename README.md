@@ -10,7 +10,7 @@ To use this as a maven repository:
 ```groovy
 repositories {
   maven {
-    url 'https://github.com/SamCarlberg/opencv-maven/raw/mvn-repo'
+    url 'https://github.com/WPIRoboticsProjects/opencv-maven/raw/mvn-repo'
   }
 }
 ```
