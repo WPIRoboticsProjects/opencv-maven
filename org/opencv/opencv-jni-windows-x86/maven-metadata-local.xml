@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.opencv</groupId>
+  <artifactId>opencv-jni-windows-x86</artifactId>
+  <versioning>
+    <release>3.1.0</release>
+    <versions>
+      <version>3.1.0</version>
+    </versions>
+    <lastUpdated>20160913213112</lastUpdated>
+  </versioning>
+</metadata>
