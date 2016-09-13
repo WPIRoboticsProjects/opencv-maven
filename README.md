@@ -19,17 +19,25 @@ repositories {
 
 Binaries are currently only available for OS X and 64-bit linux. 32-bit linux and 32/64 bit Windows are planned for support as well. The Java library and C++ headers are OS-independent and may be used on any operating system.
 
+Platform-specific artifacts have the platform in the artifact ID. For example, native libraries for 32-bit windows are specified by
+
+```groovy
+opencv-natives-windows-x86
+```
+
 #### Platform format
 
-Platform formats (used when specifying versions of native artifacts):
+Platform formats:
 
 | OS | Architecture | Platform |
 |---|---|---|
-| Windows | x86 | win32 |
-| Windows | x86_64 | win64 |
-| Mac OS X | x86_64 | osx |
-| linux | x86 | linux32 | 
-| linux | x86_64 | linux64 |
+| Windows | x86 | windows-x86 |
+| Windows | x86_64 | windows-x86_64 |
+| Mac OS X | x86_64 | osx-x86_64 |
+| linux | x86 | linux-x86 | 
+| linux | x86_64 | linux-x86_64 |
+| linux | arm | linux-arm | 
+| linux | armhf | linux-armhf |
 
 ## Artifact name and version formats
 
@@ -46,11 +54,4 @@ Available packages are:
 
 ### Versions
 
-Currently, only OpenCV 3.1.0 is available. Additionally, native packages have the platform before the OpenCV version in the maven version identifier.
-
-| Artifact | Version format |
-|---|---|
-| opencv-java | ${opencv-version} | 
-| opencv-jni | ${platform}-${opencv-version} |
-| opencv-headers | ${opencv-version} |
-| opencv-natives | ${platform}-${opencv-version} |
+Currently, only OpenCV 3.1.0 is available
